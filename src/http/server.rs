@@ -7,11 +7,11 @@ use std::net::SocketAddr;
 use std::sync::Arc;
 
 use axum::{
+    Router,
     extract::{Query, State},
     http::StatusCode,
     response::{IntoResponse, Json},
     routing::get,
-    Router,
 };
 use serde::{Deserialize, Serialize};
 

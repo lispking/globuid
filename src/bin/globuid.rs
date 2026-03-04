@@ -137,7 +137,7 @@ async fn run_server_http<G: IdGenerator + 'static>(
     generator: Arc<G>,
     addr: SocketAddr,
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
-    use globuid::http::{serve, ServerState};
+    use globuid::http::{ServerState, serve};
 
     let state = Arc::new(ServerState { generator });
     serve(state, addr).await

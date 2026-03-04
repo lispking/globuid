@@ -5,4 +5,4 @@
 
 mod server;
 
-pub use server::{serve, BatchIdResponse, IdResponse, ServerState};
+pub use server::{BatchIdResponse, IdResponse, ServerState, serve};

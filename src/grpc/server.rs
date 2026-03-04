@@ -5,14 +5,14 @@
 
 use std::sync::Arc;
 
-use tonic::{transport::Server, Request, Response, Status};
+use tonic::{Request, Response, Status, transport::Server};
 
 use crate::generator::{Id, IdGenerator};
 
 use super::proto::{
-    glob_uid_server::{GlobUid, GlobUidServer},
     GenerateBatchRequest, GenerateBatchResponse, GenerateRequest, GenerateResponse, HealthRequest,
     HealthResponse,
+    glob_uid_server::{GlobUid, GlobUidServer},
 };
 
 /// gRPC service implementation.
