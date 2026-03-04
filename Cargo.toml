@@ -5,7 +5,11 @@ edition = "2021"
 license = "Apache-2.0"
 authors = ["GlobUid Contributors"]
 description = "A globally unique ID generator with pluggable algorithms and transport layer"
-keywords = ["snowflake", "ulid", "nanoid", "uuid", "distributed", "id-generator"]
+documentation = "https://docs.rs/globuid"
+homepage = "https://github.com/lispking/globuid"
+repository = "https://github.com/lispking/globuid"
+readme = "README.md"
+keywords = ["snowflake", "ulid", "nanoid", "id-generator", "distributed"]
 categories = ["algorithms", "web-programming"]
 
 [features]
