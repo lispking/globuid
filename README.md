@@ -2,8 +2,11 @@
 
 A globally unique ID generator with pluggable algorithms and transport layer, written in Rust.
 
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![Rust](https://img.shields.io/badge/rust-1.80%2B-orange.svg)](https://www.rust-lang.org/)
+[![Crates.io](https://img.shields.io/crates/v/globuid.svg)](https://crates.io/crates/globuid)
+[![Documentation](https://docs.rs/globuid/badge.svg)](https://docs.rs/globuid)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache2.0-yellow.svg)](https://opensource.org/license/apache-2-0)
+[<img alt="build status" src="https://img.shields.io/github/actions/workflow/status/lispking/globuid/ci.yml?branch=main&style=for-the-badge" height="20">](https://github.com/lispking/globuid/actions?query=branch%3Amain)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lispking/globuid)
 
 ## Features
 
